@@ -4,8 +4,12 @@
         height: 250px;
     }
 
-    .hours {
+    .hoursText {
         font-size: 8rem;
+    }
+
+    .displayContentText {
+        font-size: 2rem;
     }
 }
 
@@ -15,8 +19,18 @@
         height: 200px;
     }
 
-    .hours {
+    .hoursText {
         font-size: 7rem;
+    }
+
+    .displayText {
+        font-size: 1rem;
+        line-height: unset;
+
+    }
+
+    .displayContentText {
+        font-size: 1rem;
     }
 }
 
@@ -24,9 +38,23 @@
     .content {
         width: 250px;
         height: 150px;
-    }
+        border-radius: 30px;
+}
 
-    .hours {
+    .hoursText {
         font-size: 5rem;
     }
+    .displayText {
+        font-size: 0.9rem;
+        line-height: unset;
+    }
+
+    .displayContentText {
+        font-size: 0.8rem;
+    }
+
+    .dateDisplay {
+        padding: 15px 10px;
+    }
+
 }

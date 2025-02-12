@@ -1,4 +1,8 @@
-html, body {
+* {
+    box-sizing: border-box;
+}
+
+html, body, p, h1 {
     margin: 0;
     padding: 0;
 }
@@ -30,9 +34,82 @@ html, body {
     justify-content: center;
 }
 
-.hours {
-    font-family:'digital-clock-font', sans-serif;
+.hoursContainer {
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+}
+
+.hoursText {
+    font-family:'digital-clock-font', monospace;
     font-weight: 100;
     color: white;
     font-size: 12rem;
+}
+
+.dateDisplay {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    padding: 30px 20px;
+    flex-direction: column;
+    height: 100%;
+    color: white;
+    font-family:'digital-clock-font', monospace;
+    font-size: 1.2rem;
+}
+
+.dateContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex: 1;
+    border-bottom: 1px solid white;
+}
+
+.yearContainer {
+    border-bottom: 1px solid white;
+    align-items: end;
+}
+
+.secondsContainer {
+    align-items: end;
+}
+
+.dayContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 10px;
+    align-items: end;
+    box-sizing: border-box;
+    padding: 0 5px;
+    border-right: 1px solid white;
+}
+
+.mouthContainer {
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 1px);
+    box-sizing: border-box;
+    align-items: end;
+    margin: 0 0 10px 5px;
+}
+
+.displayContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.displayText {
+    line-height: 19px;
+    font-size: 1rem;
+}
+
+.displayContentText {
+    font-size: 3rem;
 }
