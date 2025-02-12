@@ -20,7 +20,7 @@
     }
 
     .hoursText {
-        font-size: 7rem;
+        font-size: 6rem;
     }
 
     .displayText {
@@ -32,6 +32,13 @@
     .displayContentText {
         font-size: 1rem;
     }
+
+    .hoursContainer {
+        width: 60%;
+    }
+    .dateDisplay {
+        width: 40%;
+    }
 }
 
 @media (max-width: 420px) {
@@ -42,7 +49,7 @@
 }
 
     .hoursText {
-        font-size: 5rem;
+        font-size: 4rem;
     }
     .displayText {
         font-size: 0.9rem;
@@ -57,4 +64,10 @@
         padding: 15px 10px;
     }
 
+    .hoursContainer {
+        width: 60%;
+    }
+    .dateDisplay {
+        width: 40%;
+    }
 }
