@@ -111,8 +111,10 @@ html, body, p, h1 {
 .displayText {
     line-height: 19px;
     font-size: 1rem;
+    margin: 0 0 2px 0;
 }
 
 .displayContentText {
     font-size: 3rem;
+    line-height: auto;
 }
