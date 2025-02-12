@@ -1,0 +1,32 @@
+@media (max-width: 720px) {
+    .content {
+        width: 400px;
+        height: 250px;
+    }
+
+    .hours {
+        font-size: 8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .content {
+        width: 350px;
+        height: 200px;
+    }
+
+    .hours {
+        font-size: 7rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .content {
+        width: 250px;
+        height: 150px;
+    }
+
+    .hours {
+        font-size: 5rem;
+    }
+}
