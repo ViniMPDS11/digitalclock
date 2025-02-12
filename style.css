@@ -63,6 +63,7 @@ html, body, p, h1 {
 
 .dateContainer {
     display: flex;
+    box-sizing: border-box;
     flex-direction: row;
     width: 100%;
     flex: 1;
@@ -72,6 +73,7 @@ html, body, p, h1 {
 .yearContainer {
     border-bottom: 1px solid white;
     align-items: end;
+    padding-bottom: 10px;
 }
 
 .secondsContainer {
@@ -85,7 +87,7 @@ html, body, p, h1 {
     margin-bottom: 10px;
     align-items: end;
     box-sizing: border-box;
-    padding: 0 5px;
+    padding: 0 5px 0 0;
     border-right: 1px solid white;
 }
 
@@ -103,6 +105,7 @@ html, body, p, h1 {
     flex-direction: column;
     justify-content: center;
     flex: 1;
+    gap: 2px;
 }
 
 .displayText {
